@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Star Wars Experience</title>
+    <link rel="shortcut icon" href="images/favicon.webp" />
+  </head>
+  <body>
+    <div class="top top-background" id="top">
+      <div class="top-box center-content" id="dagobah">
+        <img src="images/dagobah.jpg" class="clickable1" onclick="dagobah()" />
+      </div>
+      <div class="top-box center-content" id="tatooine">
+        <img
+          src="images/tatooine.jpg"
+          class="clickable1"
+          onclick="tatooine()"
+        />
+      </div>
+      <div class="top-box center-content" id="deathstar">
+        <img
+          src="images/death star.jpeg"
+          class="clickable1"
+          onclick="deathStar()"
+        />
+      </div>
+    </div>
+    <div class="bottom light-grey">
+      <div
+        class="bottom-sides sides-img clickable1"
+        id="leftimg"
+        onclick="resetScreen()"
+      ></div>
+      <div class="bottom-middle">
+        <div class="bottom-box box-img" id="charimg"></div>
+        <div class="bottom-box box-img" id="info"></div>
+      </div>
+      <div class="bottom-sides sides-img" id="rightimg"></div>
+    </div>
+
+    <!-- HYPERDRIVE SCREEN -->
+    <div id="screengif">
+      <img src="images/spacevid.gif" class="gifsize" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
